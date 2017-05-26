@@ -23,7 +23,6 @@
          * Log type is json
          * @param type $strMsg
          * @param type $strType: [NULL || 0 == error], [1 == notice]
-         * @author Csáki Viktor
          */
         public static function Log($strMsg, $strType = NULL) {
             global $APP_CONF;
