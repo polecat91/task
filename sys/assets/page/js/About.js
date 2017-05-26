@@ -153,7 +153,6 @@
                 strSuccess = '';
 
             AJAX_SetCompact(true, function(strResponse){
-                console.log(strResponse);
                 if(strResponse) {
                     var tblResponse = JSON.parse(strResponse);
                     self.toggleCompactBtn();
@@ -274,6 +273,9 @@
             ABOUT.getAddModal().find('form')[0].reset();
         });
         ABOUT.getCompactBtn().on("click", ABOUT.setCompact);
+        ABOUT.getAddModal().find('form').submit(function() {
+            return false;
+        });
     });
     
 })();

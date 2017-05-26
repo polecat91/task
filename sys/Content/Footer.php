@@ -39,7 +39,7 @@
             </div>
         </div>
     </body>
-<!--</main>-->
+    <!--</main>-->
     
     <?=Init::getScript("jquery.min.js", "assets/vendors/jquery/dist/")?>
     <?=Init::getScript("bootstrap.min.js", "assets/vendors/bootstrap/dist/js/")?>
@@ -47,7 +47,7 @@
     <?=Init::getScript("bootstrap-progressbar.min.js", "assets/vendors/bootstrap-progressbar/")?>
     
 
-<!-- Datatables -->
+    <!-- Datatables -->
     <?=Init::getScript("jquery.dataTables.min.js", "assets/vendors/datatables.net/js/")?>
     <?=Init::getScript("dataTables.bootstrap.min.js", "assets/vendors/datatables.net-bs/js/")?>
     <?=Init::getScript("dataTables.buttons.min.js", "assets/vendors/datatables.net-buttons/js/")?>
@@ -59,7 +59,7 @@
     <?=Init::getScript("pnotify.nonblock.js", "assets/vendors/pnotify/dist/")?>
     
     <!--confirm-->
-    <?=Init::getScript("bootbox.js", "assets/vendors/bootbox/")?>
+    <?=Init::getScript("bootbox.js", "assets/bootbox/")?>
     
     <?=Init::getScript("scope.js")?>
     <?=Init::getScript("custom.js")?>

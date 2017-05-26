@@ -13,10 +13,8 @@
     <?=Init::getScript("bootstrap.min.css", "assets/vendors/bootstrap/dist/css/")?>
     <?=Init::getScript("font-awesome.min.css", "assets/vendors/font-awesome/css/")?>
     <?=Init::getScript("nprogress.css", "assets/vendors/nprogress/")?>
-    <?=Init::getScript("green.css", "assets/vendors/iCheck/skins/flat/")?>
     <?=Init::getScript("bootstrap-progressbar-3.3.4.min.css", "assets/vendors/bootstrap-progressbar/css/")?>
     <?=Init::getScript("jqvmap.min.css", "assets/vendors/jqvmap/dist/")?>
-    <?=Init::getScript("daterangepicker.css", "assets/vendors/bootstrap-daterangepicker/")?>
     
     <!-- Datatables -->
     <?=Init::getScript("dataTables.bootstrap.min.css", "assets/vendors/datatables.net-bs/css/")?>

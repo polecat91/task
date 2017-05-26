@@ -13,3 +13,4 @@
 
  4. Package-ek telepítése bower-el: bower install
  5. sql/DB.sql futtatása
+ 6. .htaccess beállítása
