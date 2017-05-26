@@ -3,8 +3,7 @@
 	"base": {
 		"site_name": "PROJECT",
 		"base_local": "http://localhost/",
-		"base_path": "/var/www/html/",
-        "version": "1.0"
+		"base_path": "/var/www/html/"
     },
 	"db": {
 		"phptype": "mysqli",
