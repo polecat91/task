@@ -1,0 +1,67 @@
+body {
+    @media (max-width: 767px) {
+        .login-content, .sign-up-content {
+            float: none !important;
+            margin: 5% auto;
+        }
+        .sign-up-content {
+            border-top: 1px solid;
+        }
+    }
+    @media (min-width: 767px) {
+        .login-content, .sign-up-content {
+            .content {
+                max-width: 450px;
+                margin: 25% auto;
+            }
+        }
+        .sign-up-content {
+            border-left: 1px solid;
+            position: relative;
+            &:before {
+                content: "OR";
+                position: absolute;
+                left: -14px;
+                top: 50%;
+                letter-spacing: 1px;
+                font-size: 17px;
+                color: $mainWhiteBackground;
+            }
+        }
+    }
+/*    .login-content, .sign-up-content {
+        float: none !important;
+        margin: 5% auto;
+    }*/
+
+    .login-form-1 {
+        .login-button {
+            margin-top: 15px;
+        }
+    }
+    .right_col {
+        height: 100vh;
+    }
+    .img-circle.profile_img {
+        width: 50px;
+        height: 50px;
+        padding: 1px;
+    }
+    .sidebar-footer a {
+        width: 100%;
+        cursor: pointer;
+    }
+
+    .vertical-alignment-helper {
+        display:table;
+        height: 100%;
+        width: 100%;
+        pointer-events:none;
+    }
+    .vertical-align-center {
+        /* To center vertically */
+        display: table-cell;
+        vertical-align: middle;
+        pointer-events:none;
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "name": "task",
+    "version": "1.0.0",
+    "description": "task test project",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/polecat91/task.git"
+    },
+    "author": "endre",
+    "license": "MIT",
+
+    "devDependencies": {
+        "browser-sync": "^2.12.10",
+        "gulp-ruby-sass": "^2.0.6",
+        "gulp-install": "~0.6.0"
+    },
+    "dependencies": {
+        "es6-promise": "*",
+        "gulp": "*",
+        "gulp-autoprefixer": "*",
+        "gulp-cache": "*",
+        "gulp-clean": "*",
+        "gulp-concat": "*",
+        "gulp-csscomb": "*",
+        "gulp-csslint": "*",
+        "gulp-imagemin": "*",
+        "gulp-jshint": "*",
+        "gulp-merge-media-queries": "*",
+        "gulp-notify": "*",
+        "gulp-plumber": "*",
+        "gulp-rename": "*",
+        "gulp-sass": "*",
+        "gulp-sourcemaps": "*",
+        "gulp-uglify": "*",
+        "gulp-uglifycss": "*",
+        "gulp-util": "^3.0.8",
+        "gulp-minify-css": "*",
+        "jshint": "*",
+        "sass": "*",
+        "uglifycss": "*",
+        "util": "^0.10.3"
+    }
+}

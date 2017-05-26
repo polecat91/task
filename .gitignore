@@ -1,0 +1,6 @@
+nbproject
+node_modules
+env.json
+gulpfile.js
+assets/vendors/**/*
+sys/assets/page/images/**/*

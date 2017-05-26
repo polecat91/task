@@ -1,0 +1,15 @@
+{
+	"env": "local",
+	"base": {
+		"site_name": "PROJECT",
+		"base_local": "http://localhost/",
+		"base_path": "/var/www/html/"
+    },
+	"db": {
+		"phptype": "mysqli",
+		"username": "root",
+		"password": "user",
+		"hostspec": "localhost",
+		"database": "DATABASE"
+    }
+}

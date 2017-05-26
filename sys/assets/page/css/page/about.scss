@@ -1,0 +1,35 @@
+body {
+    nav {
+        .user-content, .logout {
+            font-size: 18px;
+            padding: 15px 10px;
+        }
+    }
+    main {
+        height: 100vh;
+        background: $mainWhiteBackground;
+        .table {
+            thead, tbody {
+                * {
+                    text-align: center;
+                    vertical-align: middle;
+                }
+            }
+            .remove-confirm {
+                color: $removeRed;
+            }
+        }
+        .task-item {
+            .modal-body {
+                display: inline-block;
+            }
+            .radio-content {
+                width: 100%;
+                input[type=checkbox], input[type=radio] {
+                    width: initial;
+                    height: inherit;
+                }
+            }
+        }
+    }
+}
